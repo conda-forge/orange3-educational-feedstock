@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.1.8" %}
-{% set sha256 = "bac780e923788580e156fe49b23e7f68b98a81861158ce9302138957bbffe9ba" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "48335d0a3ec9bfce105bafc910dfc441c1acb6177e32db4d9f4410050d265bca" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [py2k]
   script: python -m pip install --no-deps --ignore-installed .
   preserve_egg_dir: True
