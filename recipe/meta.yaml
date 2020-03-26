@@ -25,6 +25,8 @@ requirements:
   run:
     - python
     - orange3
+    - numpy
+    - BeautifulSoup4
 
 test:
   imports:
