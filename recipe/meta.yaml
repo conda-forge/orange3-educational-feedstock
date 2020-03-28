@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "0883d4198ad1b090dafa8430f4dc51bba4c7cf674ff2a9687efd2b741d797acc" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "d9f73693a8ab90752c2dfcec73f274afa554213fd95c098fc259e95eea9de40a" %}
 
 package:
   name: {{ name|lower }}
@@ -13,9 +13,9 @@ source:
 
 build:
   number: 0
-  skip: True  # [py2k]
+  skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  preserve_egg_dir: True
+  preserve_egg_dir: true
 
 requirements:
   build:
@@ -25,6 +25,8 @@ requirements:
   run:
     - python
     - orange3
+    - numpy
+    - BeautifulSoup4
 
 test:
   imports:
@@ -35,7 +37,7 @@ about:
   license: CC-BY-NC-3.0
   license_family: PUBLIC-DOMAIN
   license_file: LICENSE
-  summary: 'Educational widgets for machine learning and data mining in Orange 3.'
+  summary: Educational widgets for machine learning and data mining in Orange 3.
 
   description: |
     Widgets in Educational Add-on demonstrate several key data mining and machine
