@@ -29,6 +29,10 @@ requirements:
     - BeautifulSoup4
 
 test:
+  requires:
+    - pytest
+  commands:
+    - pytest --pyargs orangecontrib.educational -v 
   imports:
     - orangecontrib.educational
 
