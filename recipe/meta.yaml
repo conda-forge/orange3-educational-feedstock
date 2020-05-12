@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "d9f73693a8ab90752c2dfcec73f274afa554213fd95c098fc259e95eea9de40a" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "c2d1d8415e295a748eb1b98848cbe00097d851cb4451264a666fccb52b3c9ea8" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ test:
   requires:
     - pytest
   commands:
-    - pytest --pyargs orangecontrib.educational -v 
+    - pytest --pyargs orangecontrib.educational -v
   imports:
     - orangecontrib.educational
 
