@@ -12,18 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: true  # [py2k]
+  number: 1
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   preserve_egg_dir: true
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.6
     - orange3
     - numpy
     - BeautifulSoup4
