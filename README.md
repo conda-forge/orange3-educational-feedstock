@@ -5,7 +5,7 @@ Home: https://github.com/biolab/orange3-educational
 
 Package license: CC-BY-NC-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Educational widgets for machine learning and data mining in Orange 3.
 
