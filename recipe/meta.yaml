@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "1af6f0da68c2a5ceeaf3a0513a2dcbe8560c5df32aa10529628ba0953242c3c1" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "f90f28b1060ebfa8063b0071d7d50913ca3ef7da1bdc03ea529277d831e932bc" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +18,7 @@ build:
   preserve_egg_dir: true
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - setuptools
