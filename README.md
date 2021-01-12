@@ -5,9 +5,13 @@ Home: https://github.com/biolab/orange3-educational
 
 Package license: CC-BY-NC-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-educational-feedstock/blob/master/LICENSE.txt)
 
 Summary: Educational widgets for machine learning and data mining in Orange 3.
+
+Development: https://github.com/biolab/orange3-educational
+
+Documentation: http://orange3-educational.readthedocs.io/
 
 Widgets in Educational Add-on demonstrate several key data mining and machine
 learning procedures. The widgets are useful for beginners to understand the
