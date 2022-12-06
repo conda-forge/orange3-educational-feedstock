@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "344e98b6205a92beed8508f28a556e6d94ee80b5fc2831e8b430e2a89e5d0eba" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "5488ffe98d81d27a28458d6a67abd7c7a482a7ed2a709bfc58049e78308f88b6" %}
 
 package:
   name: {{ name|lower }}
@@ -19,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
     - setuptools
   run:
-    - python >=3.6
-    - orange3
+    - python >=3.8
+    - orange3 >=3.31.1
     - numpy
     - BeautifulSoup4
 
