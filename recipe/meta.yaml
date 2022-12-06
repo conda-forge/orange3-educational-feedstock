@@ -19,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
     - setuptools
   run:
-    - python >=3.6
-    - orange3
+    - python >=3.8
+    - orange3 >=3.31.1
     - numpy
     - BeautifulSoup4
 
