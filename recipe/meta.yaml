@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "5488ffe98d81d27a28458d6a67abd7c7a482a7ed2a709bfc58049e78308f88b6" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "90bb4fc720ced1eba1a3bde88aa52cbdb410b65a3397c13515981bf853fa11fa" %}
 
 package:
   name: {{ name|lower }}
@@ -24,9 +24,13 @@ requirements:
     - setuptools
   run:
     - python >=3.8
-    - orange3 >=3.31.1
+    - anyqt
+    - beautifulsoup4
     - numpy
-    - BeautifulSoup4
+    - orange3 >=3.31.1
+    - orange-widget-base
+    - scikit-learn
+    - pyqtgraph
 
 test:
   imports:
