@@ -24,9 +24,13 @@ requirements:
     - setuptools
   run:
     - python >=3.8
-    - orange3 >=3.31.1
+    - anyqt
+    - beautifulsoup4
     - numpy
-    - BeautifulSoup4
+    - orange3 >=3.31.1
+    - orange-widget-base
+    - scikit-learn
+    - pyqtgraph
 
 test:
   imports:
