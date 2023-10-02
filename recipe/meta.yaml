@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "90bb4fc720ced1eba1a3bde88aa52cbdb410b65a3397c13515981bf853fa11fa" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "8cbec6f4e868631c9c260c5b8b0acc142cf5dd7cb04b3e474bce1b640b811ff7" %}
 
 package:
   name: {{ name|lower }}
