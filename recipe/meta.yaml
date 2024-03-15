@@ -25,7 +25,6 @@ requirements:
   run:
     - python >=3.8
     - anyqt
-    - beautifulsoup4
     - numpy
     - orange3 >=3.31.1
     - orange-widget-base
