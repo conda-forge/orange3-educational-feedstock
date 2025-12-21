@@ -1,6 +1,6 @@
 {% set name = "Orange3-Educational" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "bc8e966d7189e556a07ada106d7172637a98d0d0c1475be821c3996c7f28bae3" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "41b40ccc18f84217ede98e95d7044bcb6cd274010b2fa18d9a432ceaa6c295c0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   preserve_egg_dir: true
