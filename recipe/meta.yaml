@@ -26,7 +26,7 @@ requirements:
     - python >={{ python_min }}
     - anyqt
     - numpy
-    - orange3 >=3.31.1
+    - orange3 >=3.39.0
     - orange-widget-base
     - pyqtgraph
     - scikit-learn
